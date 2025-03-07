@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: "Comic Sans MS", cursive, sans-serif;
@@ -24,6 +25,10 @@
         .contact-item {
             margin: 15px 0;
             font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
         a {
             color: #7289da;
@@ -33,19 +38,26 @@
         a:hover {
             text-decoration: underline;
         }
+        .contact-item i {
+            font-size: 24px;
+            color: #7289da;
+        }
     </style>
 </head>
 <body>
     <h1>Contact Us</h1>
     <div class="contact-container">
         <div class="contact-item">
-            <p>Discord Contact 1: <a href="https://discord.com/users/123456789">User1</a></p>
+            <i class="fa-brands fa-discord"></i>
+            <p><a href="https://discord.com/users/123456789">User1</a></p>
         </div>
         <div class="contact-item">
-            <p>Discord Contact 2: <a href="https://discord.com/users/987654321">User2</a></p>
+            <i class="fa-brands fa-discord"></i>
+            <p><a href="https://discord.com/users/987654321">User2</a></p>
         </div>
         <div class="contact-item">
-            <p>Join Our Server: <a href="https://discord.gg/yourserver">Click Here</a></p>
+            <i class="fa-brands fa-discord"></i>
+            <p><a href="https://discord.gg/yourserver">Join Our Server</a></p>
         </div>
     </div>
 </body>
