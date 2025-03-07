@@ -8,74 +8,43 @@
         body {
             font-family: "Comic Sans MS", cursive, sans-serif;
             text-align: center;
-            background: #808080;
+            background: #303030;
             margin: 0;
             padding: 20px;
             color: white;
-        }
-        .video-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            max-width: 100%;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        .video-item {
-            width: 100%;
-            max-width: 400px;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 10px;
-            border-radius: 10px;
         }
         h1, h2 {
             color: white;
         }
         video {
             width: 100%;
+            max-width: 400px;
             border-radius: 10px;
+            margin-bottom: 20px;
         }
         @media (max-width: 600px) {
             body {
                 padding: 10px;
-            }
-            .video-container {
-                padding: 10px;
-            }
-            .video-item {
-                max-width: 100%;
             }
         }
     </style>
 </head>
 <body>
     <h1>Some Videos Tutorial</h1>
-    <div class="video-container">
-        <div class="video-item">
-            <h2>Video 1</h2>
-            <video controls>
-                <source src="video1.mp4" type="video/mp4">
-                Browser Anda tidak mendukung video tag.
-            </video>
-        </div>
-        <div class="video-item">
-            <h2>Video 2</h2>
-            <video controls>
-                <source src="video2.mp4" type="video/mp4">
-                Browser Anda tidak mendukung video tag.
-            </video>
-        </div>
-        <div class="video-item">
-            <h2>Video 3</h2>
-            <video controls>
-                <source src="video3.mp4" type="video/mp4">
-                Browser Anda tidak mendukung video tag.
-            </video>
-        </div>
-    </div>
+    <h2>Video 1</h2>
+    <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video tag.
+    </video>
+    <h2>Video 2</h2>
+    <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video tag.
+    </video>
+    <h2>Video 3</h2>
+    <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video tag.
+    </video>
 </body>
 </html>
